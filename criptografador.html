@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>:: CRIPTOGRAFADOR JAVASCRIPT ::</title>
+</head>
+<body>
+	<form name="cripto" method="post" onSubmit="return criptografar();">
+		<table width="500" align="center">
+			<tr>
+				<td>
+					<b>Texto:</b><br>
+					<textarea name="texto" id="texto" rows="5" cols="50"></textarea>
+					<br><br>
+
+					<b>Chave:</b>
+					<input type="text" name="chave" id="chave">
+					<br><br>
+
+					<b>Opção:</b><br>
+					<input type="radio" name="opcao" id="opcaoC" value="C" checked> Cripografar<br>
+					<input type="radio" name="opcao" id="opcaoD" value="D"> Descriptografar<br><br>
+
+					<b>Texto Criptografado:</b><br>
+					<textarea name="texto2" id="texto2" rows="5" cols="50"></textarea>
+					<br><br>
+
+					<input type="submit" value="Vai!">
+					<input type="button" value="Copiar pra cima" onClick="copiar();">
+					<br>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
